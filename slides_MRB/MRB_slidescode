@@ -4,13 +4,18 @@ subtitle: ""
 author: ""
 format:
   revealjs:
-    theme: white
+    theme: default
     slide-number: true
+    footer: "Tavola Rotonda 27 giugno 2025"
+    incremental: true
+    transition: slide
+    self-contained: true
+    progress: true
     css: styles.css
-    font: "Latin Modern Roman"
+
 ---
 
-# Verso il Methodological Review Board {.title-slide}
+# Verso il *Methodological Review Board* {.title-slide}
 
 G. Calignano, L. Sità, M. Manente, A. Perugini,  
 F. Gambarota, E. Toffalini, T. Marci,  
@@ -25,173 +30,102 @@ M. Pastore, G. Altoè & Psicostat
 
 ## Indice
 
-- Scienza Aperta e Multidisciplinarità  
-- Scienza Aperta e Cultura dell'Errore  
-- Verso il Methodological Review Board
+- Scienza Aperta, Multidisciplinarità e Cultura dell'Errore 
+- DPSS - Progetto di Ateneo Terza Missione e Open Science – Linea B *Sviluppo del Methodological Review Board in Psicologia* <img src="immagini/LOGOGO.png" alt="MB Logo" width="1500"/> 
+-  il *Methodological Review Board*: progettualità presenti e future
 
 ---
 
 ## Scienza Aperta e Multidisciplinarità
 
-### Fondamenti
+### Prospettiva
 
 - La scienza aperta promuove **trasparenza, accessibilità e collaborazione**.
-- L'integrazione multidisciplinare di **etica, filosofia, psicologia e statistica** rafforza la credibilità della ricerca.
+- La collaborazione multidisciplinare *disinteressata* (Mertonian Norms, CUDOS) e orientata al **metodo** rafforza la credibilità della ricerca.
 
 ---
 
 ## Scienza Aperta e Multidisciplinarità
 
-![](immagini/utrecht.png){width= 400px}
+![](immagini/utrecht.png)
 ---
 
-### Considerazioni Etiche nella Scienza Aperta
 
-- La scienza aperta solleva sfide etiche, **inclusività e privacy** nei dati condivisi (individuo vs società *at large*)
-- Il **context-consent meta-framework** valuta se i dataset sono riutilizzabili (Branney et al., 2018).
-- Diminuisce le **pratiche discutibili** (p-hacking, reporting selettivo) (Agnoli et al., 2017; Bosma et al., 2022).
 
----
+## Perchè la scienza ha bisogno di essere *aperta* ?
 
-### Fondamenti Filosofici e Contributi Interdisciplinari
+### La Paura e la Cultura degli Errori
 
-- Le radici filosofiche della psicologia: **Descartes, Kant, Peirce, Popper** (Miller et al., 2013).
-- La multidisciplinarità rafforza la psicologia con **metodologie e approcci critici**.
-
----
-
-### Fondamenti Filosofici e Contributi Interdisciplinari
-
-![](immagini/diagram.png){ width=400px }
-
----
-
-### Il Ruolo della Statistica
-
-- Statistica e psicometria fondamentali per **misura, riproducibilità, previsione e interpretazione dei dati**.
-- La **crisi di replicazione** ha spinto verso preregistrazione e stime di effetto (Morling et al., 2020).
-- Attenzione al rischio di **statisticismo** (Lamiell et al., 2019).
-- Serve integrare considerazioni **filosofiche ed etiche**.
-
----
-
-### Messaggio Chiave
-
-- La scienza aperta promuove **rigore metodologico, collaborazione e trasparenza**.
-- Etica, filosofia e statistica devono essere **bilanciate**.
-- L'approccio multidisciplinare rafforza l'**integrità scientifica**.
-
----
-
-## Cultura dell'Errore
-
-### La Paura degli Errori
-
-- I ricercatori temono **verifiche e danni reputazionali** (Fecher et al., 2017).
+- Chi fa ricerca teme **verifiche e danni alla reputazione** (Fecher et al., 2017).
 - Gli errori possono causare **ritiri di articoli o danni alla carriera** (Hesselmann & Reinhart, 2019).
 
 
 ---
 
-## Cultura dell'Errore
-
-_“L'onestà e la trasparenza non bastano”_ – Gelman, 2017
+### Tipi di Errori nella Ricerca
 
 <div style="text-align: center;">
-  <img src="immagini/error%20(1).png" width="500px">
+  <img src="immagini/error.png" width="800px">
 </div>
-
-
----
-
-### Tipi di Errori nella Ricerca
-
-- **Errori Onesti (HE):** inavvertiti, nonostante buone pratiche (John et al., 2012).
-- **Pratiche di Ricerca Dubitabili (QRP):** come p-hacking, selezione dei dati (Agnoli et al., 2017).
-- **Falsificazioni e Plagi (FFP):** comportamenti intenzionali (Bouter et al., 2016).
-
----
-
-### Tipi di Errori nella Ricerca
-
-![](immagini/error.png){ width=600px }
 
 Frank, M., et al., 2025 (pre-print)
 *Error Needs Culture! Advancing Data Sharing by Acknowledging Errors*
 
 ---
 
-### Gestione degli Errori
-
-- Gli errori sono spesso **stigmatizzati** (Xu & Hu, 2022).
-- La **pressione alla pubblicazione** scoraggia le correzioni (Erren et al., 2016).
-- Le **errate e le rettifiche** possono danneggiare la reputazione (Redman et al., 2008).
-
----
-
-### Apprendere da Altri Settori
+### Cambiare la gestione degli errori
 
 - Settori ad alto rischio (aviazione, nucleare) usano **Error Management Culture** (Reason, 2000).
 - La cybersecurity adotta il **disclosure responsabile** (Ding et al., 2019).
-- SpaceX e ingegneria vedono l'errore come **opportunità**.
+- Le ingegnerie vedono l'errore come **opportunità** (Dahlin, Chuang, & Roulet, 2018). 
 
 ---
 
-### Proposte per una Cultura Positiva
+### Proposte per una nuova Cultura dell' Errore
 
-- **Just Culture:** apprendimento dagli errori (Lounsbury & Sujan, 2023).
-- **Registered Reports** per ridurre i bias (Haven et al., 2019).
-- Migliorare la revisione, usare **database e lab notebook elettronici**.
-- Politiche di **correzione nei repository** (AUSSDA, 2024).
-
----
-
-### Take Home Message
-
-<br>
-
-> **Gli errori sono inevitabili.**
-
-<br>
-
-**Devono essere riconosciuti e corretti.**
-
-<br>
-
-> Una cultura dell'errore positiva promuove  
-> **fiducia e condivisione**  
-> *(Schickore, 2005)*
-
-<br>
-
+- Apprendimento incrementale e compassionevole dagli errori (Lounsbury & Sujan, 2023).
+- **Registered Reports** per ridurre i bias (Nature Neuroscience, 2024 *Reducing publication bias with Registered Reports*).
+- Migliorare la revisione, condividere data, codici e materiali secondo i principi **FAIR** (2016)
+- Politiche di **revisione, correzione e monitoraggio nei repository** (AUSSDA, 2024).
 
 ---
 
 ### Acceptance is the key ;)
 
-![](immagini/trial.png){ width=500px }
+<div style="text-align: center;">
+  <img src="immagini/trial.jpg" width="500px">
+</div>
+
+
+<span style="font-size: 0.6em;">
+Storm, P., & Paul, P. (2010, August 3). *I'm cool with trial and error … the trail part is cool … the error, not so much* [Photograph]. Flickr. Some rights reserved (Creative Commons Attribution 2.0). Retrieved June 22, 2025, from <a href="https://www.flickr.com/photos/paulandstorm/4857737018">https://www.flickr.com/photos/paulandstorm/4857737018</a>
+</span>
+
 
 ---
 
-### Methodological Review Board (MRB)
+### Progetto di Ateneo Terza Missione e Open Science – Linea B “Sviluppo del *Methodological Review Board* in Psicologia”
+
 ![](immagini/LOGOGO.png){ width=300px }
 
-- Il **Methodological Review Boards** (MRB) è stato proposto per migliorare la qualità della ricerca attraverso una **valutazione pre-raccolta dati**.
-- Fungono da **meccanismo di controllo qualità**, ma sollevano anche dubbi legittimi su **burocrazia e libertà accademica**.
+# Cos'è un *Methodological Review Board* ?
+
+- Il ***Methodological Review Board*** (MRB) è stato proposto per migliorare la qualità della ricerca attraverso una **valutazione pre-raccolta dati**.
+- Funge da **meccanismo di incremento della qualità**, ma solleva anche dubbi legittimi su **burocrazia e libertà accademica**.
 
 ---
 
-### Vantaggi dei Methodological Review Boards
+### Vantaggi del *Methodological Review Board*
 
-- **Miglioramento della qualità:** garantisce studi metodologicamente solidi.
-- **Evitare sprechi:** identifica problemi prima dell’esecuzione di studi non informativi.
-- **Supporto ai giovani ricercatori:** fornisce **feedback costruttivo**.
-- **Nuove carriere metodologiche:** crea ruoli dedicati agli esperti di metodologia.
-- **Integrità della ricerca:** assicura il rispetto di **linee guida etiche**.
+- **Miglioramento della qualità:** garantisce studi metodologicamente solidi e condivisi a livello multidisciplinare
+- **Evitare sprechi:** identifica i problemi in anticipo
+- **Supporto per *early career researchers* :** fornisce **feedback costruttivi**.
+- **Nuove carriere metodologiche:** crea ruoli dedicati agli esperti di metodologia, in linea con le recenti politiche europee e.g. *Data Steward*
+- **Integrità della ricerca:** assicura il rispetto di **linee guida etiche** e.g. FAIR priciples.
 
 ---
 
-### Criticità dei Methodological Review Boards
+### Criticità del *Methodological Review Board*
 
 - **Rischio di burocrazia:** troppi livelli di approvazione possono rallentare la ricerca.
 - **Rischio di censura:** possono ostacolare studi innovativi o non convenzionali.
@@ -201,70 +135,82 @@ Frank, M., et al., 2025 (pre-print)
 
 ---
 
-### Il MRB al DPSS, UNIPD con Psicostat
 
-- L'**Università di Padova** sta lanciando il primo **MRB in psicologia** in Italia.
+# Perché il MRB?
+
+- Nasce da un’esigenza concreta:
+  - Definizione di ipotesi e piani d’analisi spesso poco chiara
+  - Calcolo della potenza statistica trascurato
+- Obiettivo: rendere la **pre-registrazione più chiara e trasparente**
+
+---
+
+# Un supporto, non un vincolo
+
+- Il MRB **non entra nei dettagli** del progetto
+- Si concentra su:
+  - **Chiarezza**
+  - **Trasparenza**
+- Basato sull’idea di **scalabilità e sostenibilità** a lungo termine
+
+---
+
+# Come funzionerà il MRB?
+
+- Accesso **volontario**
+- Revisione da parte di esperte in:
+  - in statistica
+  - in psicometria
+  - in psicologia (secondo il settore)
+  - Altri esperti ad hoc se necessario
+
+---
+
+# Il processo in 5 passi
+
+1. **Scelta** del template di pre-registrazione (es. OSF)
+2. **Compilazione** e invio al MRB (es. via Drive o GitHub)
+3. **Revisione** iterativa con feedback metodologico
+4. **Pre-registrazione pubblica** con link (anche in embargo)
+5. **Verifica finale** e rilascio del **MRB badge**
+
+---
+
+# Il MRB Badge
+
+- Attestato digitale (es. con DOI o firma)
+- Pubblicato online con:
+  - Titolo del progetto
+  - Link alla pre-registrazione
+- Garantisce:
+  - Chiarezza metodologica
+  - Trasparenza
+  - Limiti dichiarati
+  
+---
+
+# Promuovere l’Open Science
+
+- Suggerimenti su:
+  - Open data
+  - Open code
+- Se non adottati: **giustificazione obbligatoria**
+
+---
+
+# Impatto atteso
+
+- Obiettivo: superare il **10% di pre-registrazioni** negli studi pubblicati (Hardwicke et al., 2024) 
+- MRB = leva per **migliorare qualità e trasparenza** 
+- In linea con i principi *FAIR* i futuri (presenti) requisiti per la competitività nei progetti europei e.g. Horizon2020, Data Steward 
+
+
+---
+
+### Progetto di Ateneo Terza Missione e Open Science – Linea B “Sviluppo del *Methodological Review Board* in Psicologia”
+
+- L'**Università di Padova** ha posto le basi per il primo **MRB in psicologia** in Italia (il secondo in Europa).
 - Ispirato al modello di **Daniel Lakens** a Eindhoven.
-- Parte dell'iniziativa di **Scienza Aperta Psicostat**.
-- Obiettivi: **open science, citizen science, qualità, trasparenza e credibilità**.
-
-![](immagini/LOGOGO.png){ width=300px }
-
----
-
-### Obiettivi del MRB di Padova
-
-<br>
-
-**Rigore scientifico con flessibilità**  
-_adatto a contesti diversi_
-
-<br>
-
-**Collaborazione volontaria**  
-_con i team fin dalle prime fasi_
-
-<br>
-
-**Preregistrazione**  
-_come elemento centrale_
-
-<br>
-
-**Coinvolgimento attivo**  
-_con la comunità scientifica_
-
-<br>
-
----
-
-### Azioni e Piano di Implementazione
-
-<br>
-
-**Divulgazione pubblica**  
-_eventi su Open Science e impatto sociale_
-
-<br>
-
-**Indagine interna**  
-_su convinzioni e sfide metodologiche_
-
-<br>
-
-**Studio pilota**  
-_collaborazione volontaria con il MRB, con risultati pubblici_
-
-<br>
-
-
----
-
-### Collaborazioni Internazionali e Fattibilità
-
-- Sostenuto da **Daniel Lakens e Sajedeh Rasti** (Eindhoven).
-- Beneficia dell'expertise **Psicostat** in scienza aperta e metodologia.
-- Primo passo verso l'**istituzionalizzazione dei MRB** in Italia.
 
 <div style="text-align: center;">
   <img src="immagini/tue.png" width="800px">
@@ -272,7 +218,16 @@ _collaborazione volontaria con il MRB, con risultati pubblici_
 
 ---
 
-### Integrità della Ricerca e Scienza Aperta in Italia
+### Progetto di Ateneo Terza Missione e Open Science – Linea B “Sviluppo del *Methodological Review Board* in Psicologia”
+
+- Parte dell'iniziativa di **Scienza Aperta Psicostat**.
+- Obiettivi finanziati nello scorso progetto di Ateneo (7500 euro) : **open science** *set up* MRB, **citizen science** con evento a Ottobre 2025, collaborazione fondamentale con Laura Sità.
+
+![](immagini/LOGOGO.png){ width=300px }
+
+---
+
+### Il progetto MRB e la Scienza Aperta in Italia
 
 - L’**integrità della ricerca** garantisce principi etici e trasparenza.
 - Il **CNR** ha stabilito linee guida nel 2015.
@@ -282,7 +237,7 @@ _collaborazione volontaria con il MRB, con risultati pubblici_
 
 ---
 
-### Integrità della Ricerca e Scienza Aperta in Italia
+### Il progetto MRB e la Scienza Aperta in Italia
 
 <div style="text-align: center;">
   <img src="immagini/integrity.png" width="700px">
@@ -292,35 +247,56 @@ _collaborazione volontaria con il MRB, con risultati pubblici_
 
 ---
 
-### Messaggio Conclusivo
+### Take Home Message
 
 <br>
 
-🟢 **Il MRB non deve controllare. Deve guidare.**  
-_Un approccio bilanciato è l’unica strada per innovare senza bloccare._
+> **Gli errori sono inevitabili.** 
+
+> La multidisciplinarietà cerca di arginare i bias che li generano.
 
 <br>
 
-🟡 **Non tutto subito. Ma tutto testato.**  
-_Implementazione graduale, fondata su evidenze e dialogo._
+**Possono essere individuati, condivisi e corretti** 
+
+prima della raccolta dati
 
 <br>
 
-🔵 **Competenza prima di giudizio.**  
-_Formare valutatori capaci è il pilastro di ogni MRB credibile._
+> La Cultura dell'errore promuove **credibilità e fiducia** nella *society at large* verso la *psicologia*
+> 
 
 <br>
 
-![](immagini/LOGOGO.png){ width=300px }
+---
 
-<br>
+## *Old but gold*
+
+_“L'onestà e la trasparenza non bastano”_ – Gelman, 2017
+
+<div style="text-align: center;">
+  <img src="immagini/error%20(1).png" width="500px">
+</div>
+
 
 
 ---
 
 ### Grazie per l'attenzione. 
 
-### Ora spazio alla Tavola Rotonda con:
+<div style="text-align: center;">
+  <img src= "immagini/LOGOGO.png"width="1000px">
+</div>
+
+
+## Programma
+
+### 10.30 - 11.00 Pratiche di Open Science: Cosa pensiamo e cosa facciamo? Risultati di una survey sul *Methodological Review Board* 
+
+Laura Sità e Massimiliano Pastore
+
+## 11.00 - 12.00 Quali implementazione, benefici e incentivi? 
+*Tavola rotonda insieme a*
 
 Alessandra Simonelli
 
@@ -334,6 +310,3 @@ Carlo Umiltà
 
 Alberto Voci
 
-<div style="text-align: center;">
-  <img src= "immagini/LOGOGO.png"width="1000px">
-</div>
